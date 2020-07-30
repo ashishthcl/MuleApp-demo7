@@ -65,6 +65,13 @@
    </dependencies>
 
     <repositories>
+		<repository>
+			<id>central</id>
+			<url>https://repo1.maven.org/maven2</url>
+			<releases>
+            <enabled>true</enabled>
+          </releases>
+       </repository>
         <repository>
             <id>anypoint-exchange-v2</id>
             <name>Anypoint Exchange</name>
@@ -92,10 +99,6 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-		</repository>
-		<repository>
-			<id>central</id>
-			<url>https://repo1.maven.org/maven2/</url>
 		</repository>
     </repositories>
 	
